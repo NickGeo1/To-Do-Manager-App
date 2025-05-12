@@ -46,8 +46,9 @@ The features of the current version of the application consist of:
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/03ceaa5e-7607-46de-a6b9-0f19f0243f4c)
+![image](https://github.com/user-attachments/assets/a801e3f2-9570-4245-b79c-defc1a7e25c1)
 
-![image](https://github.com/user-attachments/assets/1306d4aa-95aa-4b6d-9845-9d8d5e7c73cf)
+![image](https://github.com/user-attachments/assets/13cffb5e-8b2b-4088-bdc0-d37027bb03c6)
 
-![image](https://github.com/user-attachments/assets/94475b6c-12d8-4bc6-9384-84adc9dc9fc9)
+![image](https://github.com/user-attachments/assets/0a9961d9-8181-4ffd-9782-8fff49fb80f3)
+
