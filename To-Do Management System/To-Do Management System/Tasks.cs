@@ -8,14 +8,14 @@ using System.Windows.Forms;
 
 namespace To_Do_Management_System
 {
-    public partial class Form2 : Form
+    public partial class Tasks : Form
     {
         private List<List<string>> userData;
         private List<List<string>> sortedUserData;
         private string userName;
         private bool allowClose = true;
 
-        public Form2(List<List<string>> userData, string userName)
+        public Tasks(List<List<string>> userData, string userName)
         {
             this.userData = userData;
             this.sortedUserData = userData.Select(innerList => new List<string>(innerList)).ToList();
@@ -317,7 +317,7 @@ namespace To_Do_Management_System
             int modRow = tableLayoutPanel1.GetRow((PictureBox)sender);
             string modId = sortedUserData[modRow - 1][0];
             this.Close();
-            new Form3(modId, userName, userData).Show();
+            new TaskDetails(modId, userName, userData).Show();
         }
 
 
@@ -325,7 +325,7 @@ namespace To_Do_Management_System
         {
             allowClose = false;
             this.Close();
-            new Form3("", userName, userData).Show();    
+            new TaskDetails("", userName, userData).Show();    
         }
 
         private void prioriyToolStripMenuItem_Click_1(object sender, EventArgs e)

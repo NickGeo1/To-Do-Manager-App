@@ -35,7 +35,7 @@ namespace To_Do_Management_System
                 return;
 
             this.Hide();
-            new Form2(userData, textBox1.Text).Show();
+            new Tasks(userData, textBox1.Text).Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)

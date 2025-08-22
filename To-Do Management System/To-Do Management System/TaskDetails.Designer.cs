@@ -1,7 +1,7 @@
 ﻿
 namespace To_Do_Management_System
 {
-    partial class Form3
+    partial class TaskDetails
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace To_Do_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TaskDetails));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace To_Do_Management_System
 {
-    public partial class Form3 : Form
+    public partial class TaskDetails : Form
     {
         private string taskTitle;
         private string taskDesc;
@@ -17,7 +17,7 @@ namespace To_Do_Management_System
         private string userName;
         private List<List<string>> userData;
 
-        public Form3(string modId, string userName, List<List<string>> userData)
+        public TaskDetails(string modId, string userName, List<List<string>> userData)
         {
             InitializeComponent();
 
@@ -76,7 +76,7 @@ namespace To_Do_Management_System
 
         private void Form3_FormClosed(object sender, FormClosedEventArgs e)
         {
-            new Form2(userData, userName).Show();
+            new Tasks(userData, userName).Show();
         }
     }
 }
